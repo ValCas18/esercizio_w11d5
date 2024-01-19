@@ -1,6 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { BookFill, HouseDoorFill } from "react-bootstrap-icons";
+import logo from "../media/logo/logo.png";
 
 const SideBar = () => {
 	return (
@@ -10,7 +11,7 @@ const SideBar = () => {
 					<nav className="navbar navbar-expand-md fixed-left justify-content-between" id="sidebar">
 						<Container className="flex-column align-items-start">
 							<Link className="navbar-brand" href="index.html">
-								<img src="assets/logo/logo.png" alt="Spotify Logo" width="131" height="40" />
+								<img src={logo} alt="Spotify Logo" width="140" height="40" />
 							</Link>
 							<Button
 								className="navbar-toggler"
