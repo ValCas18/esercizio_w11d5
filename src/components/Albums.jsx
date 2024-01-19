@@ -1,4 +1,4 @@
-/* import { useEffect } from "react";
+import { useEffect } from "react";
 import { Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { getAlbum, setPlayer } from "../redux/action";
@@ -36,4 +36,3 @@ const Albums = ({ artist }) => {
 };
 
 export default Albums;
- */
